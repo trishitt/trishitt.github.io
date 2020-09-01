@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0.75rem 0;
+}
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+
+  top: 0;
+  background: #0251cc;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0.7rem 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+
+  padding: 0.75rem;
+  margin: 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #1cdfd4;
+  border-radius: 5px;
+}
+
+/* Utility class */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 2rem;
+  overflow: hidden;
+}
+
+.l-heading {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.m-heading {
+  color: rgb(17, 12, 12);
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.l-subheading {
+  color: #1cdfd4;
+  font-weight: bold;
+}
+.m-subheading {
+  background: #1cdfd4;
+  color: white;
+  width: 160px;
+  border: 5px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 7px;
+}
+.mmm-heading {
+  background: #1cdfd4;
+  color: white;
+  width: 160px;
+  border: 5px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 7px;
+}
+.mm-subheading {
+  background: #3e35bb;
+  color: white;
+  width: 160px;
+  border: 5px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 7px;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.bg-dark {
+  background: #366c91;
+}
+#contact .bg-contact {
+  background: #366c91;
+  color: WHITE;
+}
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #1cdfd4;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #50b6b1;
+}
+
+/* showcase */
+
+#showcase {
+  background: #333 url('../logo/marvin-meyer-SYTO3xs06fU-unsplash.jpg')
+    no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+
+  /* overlay */
+
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  background: #fff;
+}
+
+#what .container h3,
+#what .container p {
+  color: rgb(17, 15, 15);
+}
+#what .container h2 {
+  text-align: center;
+}
+#clients .container .m-heading {
+  text-align: center;
+}
+
+/* Items */
+
+#what .items {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+#what .items .item img {
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+/* Section:Who We are */
+
+#who {
+  color: #fff;
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+#who .who-img {
+  background: url('../logo/you-x-ventures-Oalh2MojUuk-unsplash.jpg') no-repeat
+    center center/cover;
+  height: 820px;
+  width: 50%;
+  justify-content: center;
+}
+#who img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 60%;
+  padding: 10px;
+}
+
+#who h3,
+#who h2 {
+  padding: 5px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+#who h1 {
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+}
+
+#who h3 {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.image-txt-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+/* clients */
+
+#clients .items {
+  display: flex;
+  flex: 1;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 65%;
+  padding: 5px;
+}
+
+/* Contact */
+#contact h2 {
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+}
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.btn-dark {
+  display: inline-block;
+  color: #fff;
+  background: #1cdfd4;
+  padding: 0.8rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-dark:hover {
+  background: #333;
+  color: #fff;
+}
+
+.container-footer {
+  background: #333;
+  padding: 5px;
+  margin: auto;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}

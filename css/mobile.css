@@ -1,0 +1,96 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* smartphones */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  #navbar.logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 114px;
+    /* margin-top: -3rem; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .l-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+  }
+
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+
+  #who img {
+    height: 5rem;
+    width: 5rem;
+    justify-content: left;
+    padding-left: 0;
+  }
+  .p-2 {
+    padding: 0.1rem;
+  }
+  .py-1 {
+    padding: 16px;
+  }
+  #who h2 {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+  }
+  #who h1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #who p {
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #clients .items img {
+    width: 60%;
+  }
+  #clients h2 {
+    padding-top: 0;
+  }
+
+  #contact {
+    display: block;
+  }
+  #contact .map {
+    height: 300px;
+    border-top: 4px solid #333;
+  }
+  .container {
+    padding: 1rem;
+  }
+  #contact h2 {
+    padding-top: 20px;
+  }
+}
