@@ -23,12 +23,8 @@
     padding: 0.5rem;
   }
   #showcase .showcase-content {
-    top: 114px;
-    /* margin-top: -3rem; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 162px;
+    margin-top: -3rem;
   }
 
   .l-heading {
